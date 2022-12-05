@@ -1,0 +1,12 @@
+@mixin center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin texts ($fontsize){
+    color: $red;
+    font-weight: bold;
+    padding-top: 4px;
+    font-size: $fontsize;
+}

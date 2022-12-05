@@ -1,0 +1,28 @@
+
+@import './variables';
+@import './mixins';
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.container {
+    @include center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.header {   
+    @include texts(40px);
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+}
+
+.sub-header {
+    @include center;
+    @include texts(20px);   
+}
